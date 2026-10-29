@@ -1,0 +1,1 @@
+import{ut as e}from"./index-C_mGehk_.js";var t=e({type:`function`});export{t};
