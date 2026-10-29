@@ -1,0 +1,10 @@
+{
+  "name": "TidyMamas Owner Workspace",
+  "short_name": "OwnerWorkspace",
+  "start_url": "/admin",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f3ec",
+  "theme_color": "#1f4d3a",
+  "icons": [{ "src": "/favicon.png", "sizes": "512x512", "type": "image/png" }]
+}

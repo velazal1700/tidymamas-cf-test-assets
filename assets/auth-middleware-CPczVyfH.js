@@ -1,0 +1,1 @@
+import{ut as e}from"./index-DyNM2FJZ.js";var t=e({type:`function`});export{t};
