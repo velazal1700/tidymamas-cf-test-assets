@@ -1,1 +1,0 @@
-import{ut as e}from"./index-COmPr54_.js";var t=e({type:`function`});export{t};

@@ -1,0 +1,1 @@
+import{ut as e}from"./index-CjOGHqU7.js";var t=e({type:`function`});export{t};
