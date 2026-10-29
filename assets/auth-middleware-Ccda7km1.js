@@ -1,1 +1,0 @@
-import{ut as e}from"./index-tPCMQrLw.js";var t=e({type:`function`});export{t};
