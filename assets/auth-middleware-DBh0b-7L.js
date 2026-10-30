@@ -1,1 +1,0 @@
-import{ut as e}from"./index-737xTID1.js";var t=e({type:`function`});export{t};
