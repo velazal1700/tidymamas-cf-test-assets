@@ -1,10 +1,1 @@
-{
-  "name": "TidyMamas Owner Workspace",
-  "short_name": "OwnerWorkspace",
-  "start_url": "/admin",
-  "scope": "/",
-  "display": "standalone",
-  "background_color": "#f7f3ec",
-  "theme_color": "#1f4d3a",
-  "icons": [{ "src": "/favicon.png", "sizes": "512x512", "type": "image/png" }]
-}
+{"background_color":"#FFFFFF","display":"standalone","icons":[{"sizes":"192x192","src":"/icon-192.png","type":"image/png"},{"sizes":"512x512","src":"/icon-512.png","type":"image/png"},{"sizes":"180x180","src":"/apple-touch-icon.png","type":"image/png"}],"name":"TidyMamas Owner Workspace","scope":"/","short_name":"OwnerWorkspace","start_url":"/admin","theme_color":"#142D4C"}

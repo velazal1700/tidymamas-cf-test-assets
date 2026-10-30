@@ -1,1 +1,0 @@
-import{kt as e}from"./index-BHVb5u8v.js";var t=e({type:`function`});export{t};
