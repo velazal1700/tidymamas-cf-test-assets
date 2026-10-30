@@ -1,1 +1,0 @@
-import{st as e}from"./index-C8mwdkDu.js";var t=e({type:`function`});export{t};
