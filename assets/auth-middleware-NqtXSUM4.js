@@ -1,0 +1,1 @@
+import{kt as e}from"./index-odkgexml.js";var t=e({type:`function`});export{t};
