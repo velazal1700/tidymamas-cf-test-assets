@@ -1,1 +1,0 @@
-import{Dt as e}from"./index-CiloDtqZ.js";var t=e({type:`function`});export{t};
