@@ -1,0 +1,1 @@
+import{Ot as e}from"./index-ClxdyO-a.js";var t=e({type:`function`});export{t};
