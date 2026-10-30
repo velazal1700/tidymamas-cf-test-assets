@@ -1,1 +1,0 @@
-import{kt as e}from"./index-DNFIZYLB.js";var t=e({type:`function`});export{t};
