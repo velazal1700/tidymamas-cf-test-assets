@@ -1,0 +1,1 @@
+import{Kt as e}from"./index-VyG_Us-s.js";var t=e({type:`function`});export{t};
