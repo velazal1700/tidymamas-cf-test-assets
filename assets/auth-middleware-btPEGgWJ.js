@@ -1,0 +1,1 @@
+import{Kt as e}from"./index-D9_mPdvn.js";var t=e({type:`function`});export{t};
