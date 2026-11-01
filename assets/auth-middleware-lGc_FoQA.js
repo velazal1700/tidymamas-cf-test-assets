@@ -1,0 +1,1 @@
+import{Kt as e}from"./index-DobKWqLl.js";var t=e({type:`function`});export{t};
