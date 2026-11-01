@@ -1,0 +1,1 @@
+import{Kt as e}from"./index-BEjH56rQ.js";var t=e({type:`function`});export{t};
