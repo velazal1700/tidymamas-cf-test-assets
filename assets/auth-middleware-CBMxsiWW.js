@@ -1,0 +1,1 @@
+import{Kt as e}from"./index-emR_VjUm.js";var t=e({type:`function`});export{t};
