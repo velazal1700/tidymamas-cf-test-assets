@@ -1,1 +1,0 @@
-import{Kt as e}from"./index-CTyOF2lu.js";var t=e({type:`function`});export{t};
