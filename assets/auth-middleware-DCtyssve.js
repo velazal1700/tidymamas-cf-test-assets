@@ -1,1 +1,0 @@
-import{Kt as e}from"./index-BuJj7NoJ.js";var t=e({type:`function`});export{t};
