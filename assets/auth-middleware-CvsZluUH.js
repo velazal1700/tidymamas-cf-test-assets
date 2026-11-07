@@ -1,1 +1,0 @@
-import{Rt as e}from"./index-N1Q9_GOt.js";var t=e({type:`function`});export{t};
