@@ -1,1 +1,0 @@
-import{ht as e}from"./index-CoFIpgb4.js";var t=e({type:`function`});export{t};
