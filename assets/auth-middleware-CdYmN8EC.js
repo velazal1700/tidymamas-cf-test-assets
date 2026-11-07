@@ -1,0 +1,1 @@
+import{ht as e}from"./index-BOVmvSwB.js";var t=e({type:`function`});export{t};

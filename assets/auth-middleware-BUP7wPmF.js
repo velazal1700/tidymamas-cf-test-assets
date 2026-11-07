@@ -1,1 +1,0 @@
-import{Ct as e}from"./index-DAxFuZVb.js";var t=e({type:`function`});export{t};
