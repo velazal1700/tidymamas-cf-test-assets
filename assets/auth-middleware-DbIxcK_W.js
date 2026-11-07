@@ -1,1 +1,0 @@
-import{vt as e}from"./index-SlGdaUG0.js";var t=e({type:`function`});export{t};
