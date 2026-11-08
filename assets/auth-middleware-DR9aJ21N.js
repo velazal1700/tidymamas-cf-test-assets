@@ -1,0 +1,1 @@
+import{G as e}from"./index-CFh_0HLH.js";var t=e({type:`function`});export{t};
