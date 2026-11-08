@@ -1,1 +1,0 @@
-import{t as e}from"./jsx-runtime-NZYk81nU.js";import{i as t,o as n,s as r}from"./home-sections-BbS2wnNx.js";var i=e();function a(){return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(n,{eyebrow:`Pricing`,title:`Cleaning prices`,text:`Clear pricing based on your home.`}),(0,i.jsx)(r,{}),(0,i.jsx)(t,{})]})}export{a as component};

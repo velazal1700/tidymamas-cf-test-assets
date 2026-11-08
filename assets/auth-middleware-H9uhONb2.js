@@ -1,1 +1,0 @@
-import{W as e}from"./index-C-Aes6ET.js";var t=e({type:`function`});export{t};
