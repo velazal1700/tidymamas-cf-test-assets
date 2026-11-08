@@ -1,1 +1,0 @@
-import{G as e}from"./index-C2011AjW.js";var t=e({type:`function`});export{t};
