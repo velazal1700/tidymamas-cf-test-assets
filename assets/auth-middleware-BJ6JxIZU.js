@@ -1,1 +1,0 @@
-import{G as e}from"./index-C4mkya_z.js";var t=e({type:`function`});export{t};
