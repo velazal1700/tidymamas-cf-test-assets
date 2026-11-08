@@ -1,0 +1,182 @@
+<svg viewBox="0 0 400 400" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Core Sci-Fi Hologram Glow Filters -->
+    <filter id="glow-heavy" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur1" />
+      <feGaussianBlur stdDeviation="3" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur1" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <filter id="glow-faint" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Linear Gradients for Light Beams -->
+    <linearGradient id="beam-gradient" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.8"/>
+      <stop offset="30%" stop-color="#00a8ff" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#00a8ff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="pedestal-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="15%" stop-color="#00f0ff" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="85%" stop-color="#00f0ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ==========================================================================
+       SECTION 1: VERTICAL LIGHT BEAMS (UPWARD TRACTOR STREAM)
+       ========================================================================== -->
+  <g opacity="0.85">
+    <!-- Massive Central Backdrop Column -->
+    <rect x="120" y="0" width="160" height="340" fill="url(#beam-gradient)" opacity="0.15"/>
+    
+    <!-- Fine Filament Laser Beams -->
+    <line x1="140" y1="335" x2="140" y2="10" stroke="#00f0ff" stroke-width="0.7" opacity="0.3" stroke-dasharray="100 20"/>
+    <line x1="165" y1="330" x2="165" y2="40" stroke="#00f0ff" stroke-width="1.5" opacity="0.4" filter="url(#glow-faint)"/>
+    <line x1="185" y1="340" x2="185" y2="0" stroke="#ffffff" stroke-width="0.5" opacity="0.6"/>
+    <line x1="200" y1="340" x2="200" y2="0" stroke="#00f0ff" stroke-width="2.5" opacity="0.25" filter="url(#glow-heavy)"/>
+    <line x1="215" y1="340" x2="215" y2="0" stroke="#ffffff" stroke-width="0.5" opacity="0.6"/>
+    <line x1="230" y1="330" x2="230" y2="20" stroke="#00f0ff" stroke-width="1.2" opacity="0.5" filter="url(#glow-faint)"/>
+    <line x1="255" y1="335" x2="255" y2="50" stroke="#00f0ff" stroke-width="0.8" opacity="0.3" stroke-dasharray="50 40"/>
+    
+    <!-- Micro Ascension Energy Floating Particles -->
+    <circle cx="150" cy="280" r="1.5" fill="#ffffff" opacity="0.6" filter="url(#glow-faint)"/>
+    <circle cx="165" cy="180" r="2.0" fill="#00f0ff" opacity="0.8" filter="url(#glow-faint)"/>
+    <circle cx="175" cy="240" r="1.0" fill="#00f0ff" opacity="0.4"/>
+    <circle cx="195" cy="110" r="2.5" fill="#ffffff" opacity="0.7" filter="url(#glow-faint)"/>
+    <circle cx="210" cy="210" r="1.5" fill="#00f0ff" opacity="0.5"/>
+    <circle cx="225" cy="140" r="2.0" fill="#00f0ff" opacity="0.8" filter="url(#glow-faint)"/>
+    <circle cx="245" cy="260" r="1.2" fill="#ffffff" opacity="0.5"/>
+  </g>
+
+  <!-- ==========================================================================
+       SECTION 2: DETAILED 3D ISOMETRIC HOUSE WIREFRAME ARCHITECTURE
+       ========================================================================== -->
+  <!-- Wireframe Styling Applied Globally via Attributes -->
+  <g stroke="#00f0ff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- BACKGROUND / OBSCURED INTERIOR STRUCTURAL LAYERS (Faint Matrix lines) -->
+    <g stroke-width="0.6" opacity="0.25" stroke-dasharray="2 2">
+      <!-- Back Wall Plane -->
+      <polygon points="150,210 250,210 250,280 150,280"/>
+      <!-- Back Roof Ridge Line Connection -->
+      <line x1="150" y1="210" x2="200" y2="165"/>
+      <line x1="250" y1="210" x2="200" y2="165"/>
+      <!-- Internal floor grid division lines -->
+      <line x1="150" y1="245" x2="250" y2="245"/>
+      <line x1="150" y1="245" x2="180" y2="225"/>
+      <line x1="250" y1="245" x2="220" y2="225"/>
+    </g>
+
+    <!-- MIDGROUND INTERIOR CONNECTIONS (Structural framework layout) -->
+    <g stroke-width="0.9" opacity="0.5">
+      <!-- Floor joist dividers -->
+      <line x1="130" y1="265" x2="270" y2="265"/>
+      <line x1="180" y1="225" x2="180" y2="305"/>
+      <line x1="220" y1="225" x2="220" y2="305"/>
+      <!-- Mid-level structural roof trusses -->
+      <line x1="130" y1="225" x2="180" y2="225"/>
+      <line x1="270" y1="225" x2="220" y2="225"/>
+    </g>
+
+    <!-- PRIMARY FOREGROUND BUILD OUTER SHELL (Intense Neon Glow Matrix) -->
+    <g stroke-width="1.4" filter="url(#glow-heavy)">
+      <!-- Primary Main Left Gabled Wall Outer Facade -->
+      <polygon points="130,225 180,225 180,305 130,305"/>
+      <polygon points="130,225 155,180 180,225"/>
+
+      <!-- Right Recessed Extended Wing Outer Facade -->
+      <polygon points="220,225 270,225 270,305 220,305"/>
+      <polygon points="220,225 245,180 270,225"/>
+
+      <!-- Central Recessed Atrium Wall Connector Shell -->
+      <polygon points="180,225 220,225 220,305 180,305"/>
+
+      <!-- Main Intersecting Front Projecting Roof Lines -->
+      <polyline points="130,225 155,180 180,225"/>
+      <polyline points="220,225 245,180 270,225"/>
+      
+      <!-- Horizontal Base Alignment Platform Line -->
+      <line x1="120" y1="305" x2="280" y2="305" stroke="#ffffff" stroke-width="1.8"/>
+    </g>
+
+    <!-- WINDOW SYSTEMS, DOOR AND ARCHITECTURAL SCHEMATICS -->
+    <!-- Window Trim Accents (Cyan Neon Glow Layers) -->
+    <g stroke-width="1.0" filter="url(#glow-faint)">
+      <!-- Left Wing Upper Level Grid Window Pair -->
+      <rect x="140" y="235" width="12" height="12"/>
+      <rect x="156" y="235" width="12" height="12"/>
+      <!-- Left Wing Lower Level Grid Window Pair -->
+      <rect x="140" y="270" width="12" height="16"/>
+      <rect x="156" y="270" width="12" height="16"/>
+
+      <!-- Right Wing Upper Level Grid Window Pair -->
+      <rect x="232" y="235" width="12" height="12"/>
+      <rect x="248" y="235" width="12" height="12"/>
+      <!-- Right Wing Lower Level Grid Window Pair -->
+      <rect x="232" y="270" width="12" height="16"/>
+      <rect x="248" y="270" width="12" height="16"/>
+
+      <!-- Central Atrium Entry Portal System (Doorway) -->
+      <rect x="194" y="260" width="12" height="45" stroke-dasharray="16 2"/>
+      <rect x="191" y="255" width="18" height="50" stroke-width="1.2"/>
+    </g>
+
+    <!-- Inner Window Cross Grid Reticles (Absolute Precision Alignment) -->
+    <g stroke-width="0.5" opacity="0.75">
+      <!-- Crosshairs for Window Glass Elements -->
+      <path d="M146,235 v12 M140,241 h12 M162,235 v12 M156,241 h12 M146,270 v16 M140,278 h12 M162,270 v16 M156,278 h12"/>
+      <path d="M238,235 v12 M232,241 h12 M254,235 v12 M248,241 h12 M238,270 v16 M232,278 h12 M254,270 v16 M248,278 h12"/>
+      <!-- Door Grid Transom Accent lines -->
+      <line x1="191" y1="267" x2="209" y2="267"/>
+      <line x1="191" y1="280" x2="209" y2="280"/>
+    </g>
+
+    <!-- AMBIENT HOLOGRAPHIC INTERIOR LIGHT CORES -->
+    <!-- Soft bright ambient centers inside the main rooms -->
+    <g stroke="none" fill="#00f0ff">
+      <circle cx="154" cy="241" r="3" opacity="0.35" filter="url(#glow-heavy)"/>
+      <circle cx="246" cy="241" r="3" opacity="0.35" filter="url(#glow-heavy)"/>
+      <circle cx="154" cy="278" r="4" opacity="0.25" filter="url(#glow-heavy)"/>
+      <circle cx="246" cy="278" r="4" opacity="0.25" filter="url(#glow-heavy)"/>
+      <!-- Front porch lighting accent node -->
+      <polygon points="200,250 197,255 203,255" fill="#ffffff" filter="url(#glow-faint)"/>
+    </g>
+  </g>
+
+  <!-- ==========================================================================
+       SECTION 3: CONCENTRIC EMITTER PEDESTAL RINGS (BASE INTERFACE)
+       ========================================================================== -->
+  <g transform="translate(200, 335)" filter="url(#glow-heavy)">
+    <!-- Base Deep Anchor Ring Base Projection Line -->
+    <ellipse cx="0" cy="12" rx="110" ry="16" fill="none" stroke="#004e66" stroke-width="4" opacity="0.4"/>
+
+    <!-- Concentric Primary Neon Plasma Rings (Elliptical Perspective) -->
+    <ellipse cx="0" cy="12" rx="100" ry="14" fill="none" stroke="#00f0ff" stroke-width="1.5" opacity="0.4"/>
+    <ellipse cx="0" cy="9" rx="85" ry="11" fill="none" stroke="#00f0ff" stroke-width="2.5" opacity="0.75"/>
+    <ellipse cx="0" cy="6" rx="70" ry="9" fill="none" stroke="#ffffff" stroke-width="1.0" opacity="0.9"/>
+    <ellipse cx="0" cy="3" rx="50" ry="6" fill="none" stroke="#00f0ff" stroke-width="3.0" opacity="0.6" stroke-dasharray="30 10 15 10"/>
+    <ellipse cx="0" cy="0" rx="30" ry="4" fill="none" stroke="#00f0ff" stroke-width="1.0" opacity="0.5"/>
+
+    <!-- Horizontal Flares & Target Acquisition Corner ticks around the platform base -->
+    <path d="M -115,12 L -95,12 M 95,12 L 115,12" stroke="#ffffff" stroke-width="1.5" opacity="0.7"/>
+    <path d="M -105,4 L -115,4 L -115,20 L -105,20" fill="none" stroke="#00f0ff" stroke-width="1.2" opacity="0.5"/>
+    <path d="M 105,4 L 115,4 L 115,20 L 105,20" fill="none" stroke="#00f0ff" stroke-width="1.2" opacity="0.5"/>
+  </g>
+
+  <!-- Foreground Bright Horizontal Baseline Highlight Plate -->
+  <line x1="90" y1="344" x2="310" y2="344" stroke="url(#pedestal-grad)" stroke-width="2.5" opacity="0.8"/>
+</svg>
