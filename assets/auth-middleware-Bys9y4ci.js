@@ -1,0 +1,1 @@
+import{Ct as e}from"./index-5ScReXmM.js";var t=e({type:`function`});export{t};
