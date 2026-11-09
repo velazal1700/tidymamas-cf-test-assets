@@ -1,0 +1,1 @@
+import{K as e}from"./index-BynrcZa2.js";var t=e({type:`function`});export{t};
