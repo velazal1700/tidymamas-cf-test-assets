@@ -1,0 +1,1 @@
+import{K as e}from"./index-CKaLL46I.js";var t=e({type:`function`});export{t};
