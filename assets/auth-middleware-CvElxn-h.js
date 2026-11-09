@@ -1,0 +1,1 @@
+import{K as e}from"./index-BgX_W_9t.js";var t=e({type:`function`});export{t};
