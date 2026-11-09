@@ -1,0 +1,1 @@
+import{G as e}from"./index-B83CAlBn.js";var t=e({type:`function`});export{t};

@@ -1,1 +1,0 @@
-import{G as e}from"./index-FQDEYikw.js";var t=e({type:`function`});export{t};
