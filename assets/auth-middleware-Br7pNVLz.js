@@ -1,1 +1,0 @@
-import{K as e}from"./index-BpMX_q9U.js";var t=e({type:`function`});export{t};
