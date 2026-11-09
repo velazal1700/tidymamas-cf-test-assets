@@ -1,0 +1,1 @@
+import{K as e}from"./index-Dr0eJwht.js";var t=e({type:`function`});export{t};
