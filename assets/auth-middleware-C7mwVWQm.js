@@ -1,1 +1,0 @@
-import{G as e}from"./index-JSViz5wZ.js";var t=e({type:`function`});export{t};

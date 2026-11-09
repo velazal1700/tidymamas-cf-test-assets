@@ -1,0 +1,1 @@
+import{G as e}from"./index-Bht5D945.js";var t=e({type:`function`});export{t};
