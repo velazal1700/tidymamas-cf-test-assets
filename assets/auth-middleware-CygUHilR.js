@@ -1,0 +1,1 @@
+import{K as e}from"./index-Dtg8xz3Z.js";var t=e({type:`function`});export{t};
