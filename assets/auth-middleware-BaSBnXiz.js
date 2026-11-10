@@ -1,0 +1,1 @@
+import{K as e}from"./index-Co6hwCPX.js";var t=e({type:`function`});export{t};
