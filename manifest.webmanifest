@@ -1,1 +1,17 @@
-{"background_color":"#FFFFFF","display":"standalone","icons":[{"sizes":"192x192","src":"/icon-192.png","type":"image/png"},{"sizes":"512x512","src":"/icon-512.png","type":"image/png"},{"sizes":"180x180","src":"/apple-touch-icon.png","type":"image/png"}],"name":"TidyMamas Owner Workspace","scope":"/","short_name":"OwnerWorkspace","start_url":"/admin","theme_color":"#142D4C"}
+{
+  "id": "/admin",
+  "background_color": "#05080D",
+  "display": "standalone",
+  "icons": [
+    { "sizes": "192x192", "src": "/icon-192.png", "type": "image/png" },
+    { "sizes": "512x512", "src": "/icon-512.png", "type": "image/png" },
+    { "sizes": "180x180", "src": "/apple-touch-icon.png", "type": "image/png" }
+  ],
+  "name": "TidyMamas Admin HQ",
+  "scope": "/",
+  "short_name": "TidyMamas HQ",
+  "start_url": "/admin",
+  "theme_color": "#142D4C",
+  "lang": "en-US",
+  "description": "TidyMamas private owner command center"
+}
