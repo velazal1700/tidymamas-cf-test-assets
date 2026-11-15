@@ -1,1 +1,0 @@
-import{K as e}from"./index-KRLeOrzB.js";var t=e({type:`function`});export{t};

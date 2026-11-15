@@ -1,1 +1,0 @@
-import{K as e}from"./index-DiPVFILP.js";var t=e({type:`function`});export{t};
