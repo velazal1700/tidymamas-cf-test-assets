@@ -1,0 +1,1 @@
+import{K as e}from"./index-CPzSb6UW.js";var t=e({type:`function`});export{t};
