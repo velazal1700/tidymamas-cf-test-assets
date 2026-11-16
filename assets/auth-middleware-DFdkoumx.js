@@ -1,1 +1,0 @@
-import{K as e}from"./index-DifoEiQ1.js";var t=e({type:`function`});export{t};
